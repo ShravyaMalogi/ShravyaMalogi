@@ -9,8 +9,9 @@
 ![Photography](https://img.shields.io/badge/Photography-9C27B0?style=for-the-badge&logo=photography&logoColor=white)
 
 ## 📊 GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=radical)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=gruvbox)
+<br>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=tokyonight)
 
 ## 🚀 Projects
 <p><a href="https://github.com/yourusername/attendance-tracker">Attendance Tracker</a>: Automating attendance calculation with manual entries</p>
