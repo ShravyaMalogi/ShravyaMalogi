@@ -16,8 +16,7 @@ I'm Shravya, a psychological data consultant in the making, passionate about ble
 - [T-Sheet Dashboard](https://github.com/yourusername/t-sheet-dashboard): A tool for grade analysis and performance metrics.
 
 ## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shravyamalogi)
 
 ## 📫 Contact
 - [Email: shravyamwork@gmail.com](mailto:shravyamwork@gmail.com)
