@@ -19,7 +19,7 @@ I'm Shravya, a psychological data consultant in the making, passionate about ble
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shravyamalogi)
 
 ## 📫 Contact
-- [Email: shravyamwork@gmail.com](mailto:shravyamwork@gmail.com)
+- Email: [shravyamwork@gmail.com](mailto:shravyamwork@gmail.com)
 
 ## 🎉 Fun Fact
 "Strive not to be a success, but rather to be of value." – Albert Einstein
