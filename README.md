@@ -23,6 +23,6 @@
  Email: [shravyamwork@gmail.com](mailto:shravyamwork@gmail.com)
 
 ## 🎉 Fun Fact
-"Strive not to be a success, but rather to be of value." – Albert Einstein
+"The question isn't who's going to let me; it's who's going to stop me." – Ayn Rand
 
 </div>
