@@ -1,3 +1,5 @@
+<div align="center">
+
 # Hi, I'm Shravya! 👋
 
 ## 🛠️ Skills & Tools
@@ -22,3 +24,5 @@
 
 ## 🎉 Fun Fact
 "Strive not to be a success, but rather to be of value." – Albert Einstein
+
+</div>
