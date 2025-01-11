@@ -13,8 +13,8 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
 
 ## 🚀 Projects
- [Attendance Tracker AI](https://github.com/yourusername/attendance-tracker): Automating attendance with AI and face recognition.
- [T-Sheet Dashboard](https://github.com/yourusername/t-sheet-dashboard): A tool for grade analysis and performance metrics.
+<p><a href="https://github.com/yourusername/attendance-tracker">Attendance Tracker</a>: Automating attendance calculation with manual entries</p>
+<p><a href="https://github.com/yourusername/t-sheet-dashboard">Task Manager</a>: A tool for keeping up with tasks and works in an organized manner</p>
 
 ## 🌐 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shravyamalogi)
