@@ -1,5 +1,4 @@
-# Hi there! 👋
-I'm Shravya, a psychological data consultant in the making, passionate about blending psychology with data insights to create meaningful solutions.
+# Hi, I'm Shravya! 👋
 
 ## 🛠️ Skills & Tools
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
