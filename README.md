@@ -27,10 +27,14 @@
 <p><a href="https://github.com/ShravyaMalogi/Task-Manager">Task Manager</a>: A tool for keeping up with tasks and works in an organized manner</p>
 
 ## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shravyamalogi)
-
-## 📫 Contact
- Email: [shravyamwork@gmail.com](mailto:shravyamwork@gmail.com)
+<p>
+  <a href="mailto:shravyamwork@gmail.com">
+    <img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=plastic&logo=gmail&logoColor=white" alt="Gmail" width="140" height="40"/>
+  </a>
+  <a href="https://www.linkedin.com/in/shravyamalogi/">
+    <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn" width="140" height="40"/>
+  </a>
+</p>
 
 ## 🧘‍♂️ Truth Bomb
 "The question isn't who's going to let me; it's who's going to stop me." – Ayn Rand
