@@ -18,9 +18,17 @@
 
 
 ## 📊 GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=tokyonight)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalohi&show_icons=true&theme=tokyonight">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=solarized-light">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=light" alt="Your GitHub Stats">
+</picture>
 <br>
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=tokyonight)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=radical">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=solarized-light">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=light" alt="Top Languages">
+</picture>
 
 ## 🚀 Projects
 <p><a href="https://github.com/yourusername/attendance-tracker">Attendance Tracker</a>: Automating attendance calculation with manual entries</p>
