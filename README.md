@@ -18,7 +18,7 @@
 
 
 ## 📊 GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=gruvbox)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=tokyonight)
 <br>
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=tokyonight)
 
