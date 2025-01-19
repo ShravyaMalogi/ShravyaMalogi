@@ -19,7 +19,7 @@
 
 ## 📊 GitHub Stats
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalohi&show_icons=true&theme=tokyonight">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=tokyonight">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=solarized-light">
   <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=light" alt="Your GitHub Stats">
 </picture>
