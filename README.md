@@ -1,7 +1,7 @@
 
 
 <div align="center">
-<img src="music1.jpg" width="1500" />
+<img src="music_1.gif" width="1500" />
 <br/>
 <br/>
   
