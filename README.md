@@ -1,5 +1,3 @@
-
-
 <div align="center">
 <img src="music_1.gif" width="1500" />
 <br/>
@@ -36,8 +34,15 @@
 </picture>
 
 ## 🚀 Projects
-<p><a href="https://github.com/yourusername/attendance-tracker">Attendance Tracker</a>: Automating attendance calculation with manual entries</p>
-<p><a href="https://github.com/ShravyaMalogi/Task-Manager">Task Manager</a>: A tool for keeping up with tasks and works in an organized manner</p>
+<div style="display: flex; align-items: center; position: absolute; left: 50%; transform: translateX(-40%);">
+  <a href="https://github.com/ShravyaMalogi/Task-Manager">
+    <img src="project1.jpg" title="Task Manager" alt="Project 1" style="width:150px;height:150px;">
+  </a>
+  <div style="margin-left: 15px;">
+    <p><strong>Task Manager</strong></p>
+    <p>A tool for keeping up with tasks and works in an organized manner</p>
+  </div>
+</div>
 
 ## 🌐 Connect with Me
 <p>
