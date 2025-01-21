@@ -1,5 +1,10 @@
-<div align="center">
 
+
+<div align="center">
+<img src="music1.jpg" width="1500" />
+<br/>
+<br/>
+  
 # Hi, I'm Shravya! 👋
 
 ## 🛠️ Skills & Tools
