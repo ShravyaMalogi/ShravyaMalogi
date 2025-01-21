@@ -34,11 +34,15 @@
 </picture>
 
 ## 🚀 Projects
-<div style="display: flex; align-items: center; position: absolute; left: 50%; transform: translateX(-40%);">
-  <a href="https://github.com/ShravyaMalogi/Task-Manager">
-    <img src="project1.jpg" title="Task Manager" alt="Project 1" style="width:150px;height:150px;">
-  </a>
-  <div style="margin-left: 15px;">
+<div style="display: grid; grid-template-rows: 1fr 1fr; grid-template-columns: 1fr 1fr; gap: 15px;">
+  <!-- Image in [0][0] -->
+  <div style="grid-row: 1; grid-column: 1;">
+    <a href="https://github.com/ShravyaMalogi/Task-Manager">
+      <img src="project1.jpg" title="Task Manager" alt="Project 1" style="width:150px;height:150px;">
+    </a>
+  </div>
+  <!-- Text in [0][1] -->
+  <div style="grid-row: 1; grid-column: 2;">
     <p><strong>Task Manager</strong></p>
     <p>A tool for keeping up with tasks and works in an organized manner</p>
   </div>
