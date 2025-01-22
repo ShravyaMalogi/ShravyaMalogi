@@ -34,19 +34,49 @@
 </picture>
 
 ## 🚀 Projects
-<div style="display: grid; grid-template-rows: 1fr 1fr; grid-template-columns: 1fr 1fr; gap: 15px;">
-  <!-- Image in [0][0] -->
-  <div style="grid-row: 1; grid-column: 1;">
-    <a href="https://github.com/ShravyaMalogi/Task-Manager">
-      <img src="project1.jpg" title="Task Manager" alt="Project 1" style="width:150px;height:150px;">
-    </a>
-  </div>
-  <!-- Text in [0][1] -->
-  <div style="grid-row: 1; grid-column: 2;">
-    <p><strong>Task Manager</strong></p>
-    <p>A tool for keeping up with tasks and works in an organized manner</p>
-  </div>
-</div>
+<table>
+  <tr>
+    <!-- Image in [0][0] -->
+    <td>
+      <a href="https://github.com/ShravyaMalogi/Task-Manager">
+        <img src="project1.jpg" title="Task Manager" alt="Project 1" style="width:150px;height:150px;">
+      </a>
+    </td>
+    <!-- Text in [0][1] -->
+    <td>
+      <p><strong>Task Manager</strong></p>
+      <p>A tool for keeping up with tasks and works in an organized manner</p>
+    </td>
+  </tr>
+</table>
+
+## 📂Repositories
+<table>
+  <tr>
+    <!-- Repository 1 -->
+    <td align="center">
+      <a href="https://github.com/ShravyaMalogi/C">
+        <img src="images/C_repo.jpg" alt="C" style="width: 150px; height: 150px; border-radius: 10px;">
+        <p><strong>C</strong></p>
+      </a>
+    </td>
+    <!-- Repository 2 -->
+    <td align="center">
+      <a href="https://github.com/ShravyaMalogi/hackerrank-solutions-sql">
+        <img src="images/SQL_repo.jpg" alt="SQL" style="width: 150px; height: 150px; border-radius: 10px;">
+        <p><strong>SQL</strong></p>
+      </a>
+    </td>
+    <!-- Repository 3 -->
+    <td align="center">
+      <a href="https://github.com/ShravyaMalogi/Machine_Learning">
+        <img src="images/ML_repo.jpg" alt="ML" style="width: 150px; height: 150px; border-radius: 10px;">
+        <p><strong>ML</strong></p>
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 ## 🌐 Connect with Me
 <p>
