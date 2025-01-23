@@ -77,24 +77,6 @@
   </tr>
 </table>
 
-## 📂 Pinned Repositories
-
-<div align="center">
-  <!-- Repository 1 -->
-  <a href="https://github.com/ShravyaMalogi/C">
-    <img src="images/C_repo.jpg" alt="C" style="width: 300px; border-radius: 10px; margin: 10px;">
-  </a>
-  <!-- Repository 2 -->
-  <a href="https://github.com/ShravyaMalogi/hackerrank-solutions-sql">
-    <img src="images/SQL_repo.jpg" alt="SQL" style="width: 300px; border-radius: 10px; margin: 10px;">
-  </a>
-  <!-- Repository 3 -->
-  <a href="https://github.com/ShravyaMalogi/Machine_Learning">
-    <img src="images/ML_repo.jpg" alt="ML" style="width: 300px; border-radius: 10px; margin: 10px;">
-  </a>
-</div>
-
-
 ## 🌐 Connect with Me
 <p>
   <a href="mailto:shravyamwork@gmail.com">
