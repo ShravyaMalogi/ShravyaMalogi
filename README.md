@@ -51,31 +51,48 @@
 </table>
 
 ## 📂Repositories
-<table>
+<table style="border-collapse: collapse; border-spacing: 0;">
   <tr>
     <!-- Repository 1 -->
-    <td align="center">
+    <td align="center" style="padding: 0;">
       <a href="https://github.com/ShravyaMalogi/C">
         <img src="images/C_repo.jpg" alt="C" style="width: 150px; height: 150px; border-radius: 10px;">
-        <p><strong>C</strong></p>
+        <p style="margin: 0;"><strong>C</strong></p>
       </a>
     </td>
     <!-- Repository 2 -->
-    <td align="center">
+    <td align="center" style="padding: 0;">
       <a href="https://github.com/ShravyaMalogi/hackerrank-solutions-sql">
         <img src="images/SQL_repo.jpg" alt="SQL" style="width: 150px; height: 150px; border-radius: 10px;">
-        <p><strong>SQL</strong></p>
+        <p style="margin: 0;"><strong>SQL</strong></p>
       </a>
     </td>
     <!-- Repository 3 -->
-    <td align="center">
+    <td align="center" style="padding: 0;">
       <a href="https://github.com/ShravyaMalogi/Machine_Learning">
         <img src="images/ML_repo.jpg" alt="ML" style="width: 150px; height: 150px; border-radius: 10px;">
-        <p><strong>ML</strong></p>
+        <p style="margin: 0;"><strong>ML</strong></p>
       </a>
     </td>
   </tr>
 </table>
+
+## 📂 Pinned Repositories
+
+<div align="center">
+  <!-- Repository 1 -->
+  <a href="https://github.com/ShravyaMalogi/C">
+    <img src="images/C_repo.jpg" alt="C" style="width: 300px; border-radius: 10px; margin: 10px;">
+  </a>
+  <!-- Repository 2 -->
+  <a href="https://github.com/ShravyaMalogi/hackerrank-solutions-sql">
+    <img src="images/SQL_repo.jpg" alt="SQL" style="width: 300px; border-radius: 10px; margin: 10px;">
+  </a>
+  <!-- Repository 3 -->
+  <a href="https://github.com/ShravyaMalogi/Machine_Learning">
+    <img src="images/ML_repo.jpg" alt="ML" style="width: 300px; border-radius: 10px; margin: 10px;">
+  </a>
+</div>
 
 
 ## 🌐 Connect with Me
