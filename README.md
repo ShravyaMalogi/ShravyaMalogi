@@ -1,4 +1,4 @@
-#
+
 <div>
 
 <img src="images/aboutme_static.jpg" width="650" />
@@ -41,8 +41,6 @@
 
 <br/>
 
-<img src="images/elysia.gif" width="500" />
-
 <div align="center">
  
 ## 📊 My stats
@@ -62,7 +60,8 @@
 
 <br/>
 
-
+<div align="center">
+  
 <sub>  *"The question isn't who's going to let me; it's who's going to stop me." – Ayn Rand* </sub>
 </div>
 
@@ -70,3 +69,4 @@
   <img align="center" alt="colored gif" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer" />
 </footer>
 
+</div>
