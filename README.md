@@ -3,8 +3,8 @@
 
 <img src="images/aboutme_static.jpg" width="650" />
   
-- <img src="images/icons8-unicorn.gif" alt="." width="16" height="16"/> Student  
-- <img src="images/icons8-cake.gif" alt="."  width="16" height="16"/> 04' liner
+- <img src="images/unicorn.gif" alt="." width="20" height="20"/> Student  
+- <img src="images/cake.gif" alt="."  width="20" height="20"/> 04' liner
 
 - I'm skilled with
   ![Python](https://img.shields.io/badge/Python-461d3a?style=plastic&logo=python&logoColor=white)
@@ -30,11 +30,37 @@
 <img src="images/repo_static.jpg" width="650" />
 <br/>
 <br/>
-  
-- <img src="images/C_repo.jpg" alt="." width="20" height="20"/> [***C***](https://github.com/ShravyaMalogi/C) <br/>
-  Basics of C
-- <img src="images/ML_repo.jpg" alt="." width="16" height="16"/> [***Machine Learning***](https://github.com/ShravyaMalogi/Machine_Learning") <br/>
-  Machine Learning programs
+
+<table>
+  <tr>
+    <td width="150"></td> <!-- Invisible column to push table right -->
+    <td>
+      <table>
+        <tr>
+          <td align="center">
+            <img src="images/rep_folder.gif" alt="." width="20" height="20"/> 
+            <strong><a href="https://github.com/ShravyaMalogi/C">C</a></strong>
+          </td>
+          <td align="center">
+            <img src="images/rep_folder.gif" alt="." width="20" height="20"/> 
+            <a href="https://github.com/ShravyaMalogi/Python-practice"><strong>Python</strong></a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <img src="images/rep_folder.gif" alt="." width="20" height="20"/> 
+            <a href="https://github.com/ShravyaMalogi/hackerrank-solutions-sql"><strong>SQL</strong></a>
+          </td>
+          <td align="center">
+            <img src="images/rep_folder.gif" alt="." width="20" height="20"/> 
+            <a href="https://github.com/ShravyaMalogi/Machine_Learning"><strong>Machine Learning</strong></a>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="150"></td> <!-- Invisible column to push table left -->
+  </tr>
+</table>
 
 <br/>
 
