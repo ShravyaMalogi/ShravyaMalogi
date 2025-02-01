@@ -3,8 +3,8 @@
 
 <img src="images/aboutme_static.jpg" width="650" />
   
-- <img src="https://i.imgur.com/" alt="." width="16" height="16"/> Student  
-- <img src="https://i.imgur.com/" alt="."  width="16" height="16"/> 04' liner
+- <img src="images/icons8-unicorn.gif" alt="." width="16" height="16"/> Student  
+- <img src="images/icons8-cake.gif" alt="."  width="16" height="16"/> 04' liner
 
 - I'm skilled with
   ![Python](https://img.shields.io/badge/Python-461d3a?style=plastic&logo=python&logoColor=white)
