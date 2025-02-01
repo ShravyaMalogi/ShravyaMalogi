@@ -1,8 +1,7 @@
 #
 <div>
-<img src="images/" width="300" align="right" />
-<br/>
-<img src="images/aboutme_static.jpg/" width="500" />
+
+<img src="images/aboutme_static.jpg/" width="650" />
 <br/>
 <br/>
   
@@ -27,7 +26,7 @@
   ![Audacity](https://img.shields.io/badge/Audacity-71557A?style=plastic&logo=audacity&logoColor=white)
   ![Canva](https://img.shields.io/badge/Canva-502a50?style=plastic&logo=canva&logoColor=white)  
 
-<img src="images/elysia_body.png" width="300" align="right" />
+
 <br/>
 <img src="images/repo.png" width="500" />
 <br/>
