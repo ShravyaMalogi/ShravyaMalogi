@@ -89,4 +89,7 @@
 <sub>  *"The question isn't who's going to let me; it's who's going to stop me." – Ayn Rand* </sub>
 </div>
 
+<footer align="center" >
+  <img align="center" alt="colored gif" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer" />
+</footer>
 
