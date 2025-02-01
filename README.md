@@ -2,8 +2,6 @@
 <div>
 
 <img src="images/aboutme_static.jpg/" width="650" />
-<br/>
-<br/>
   
 - <img src="https://i.imgur.com/" alt="." width="16" height="16"/> Student  
 - <img src="https://i.imgur.com/" alt="."  width="16" height="16"/> 04' liner
@@ -28,7 +26,7 @@
 
 
 <br/>
-<img src="images/repo.png" width="500" />
+<img src="images/repo_static.img" width="500" />
 <br/>
 <br/>
   
