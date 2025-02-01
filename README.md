@@ -2,7 +2,7 @@
 <div>
 <img src="images/" width="300" align="right" />
 <br/>
-<img src="images" width="500" />
+<img src="images/aboutme_static.jpg/" width="500" />
 <br/>
 <br/>
   
