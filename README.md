@@ -64,14 +64,7 @@
 
 <br/>
 
-<img src="images/elysia.gif" width="500" /><br/>
-
-
-<sub>  *"The question isn't who's going to let me; it's who's going to stop me." – Ayn Rand* </sub>
-</div>
-
-
-<div align="center">
+<img src="images/elysia.gif" width="500" />
   
 ## 📊 My stats
   
@@ -87,5 +80,14 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=light" alt="Top Languages">
 </picture>
 </div>
+
+<br/>
+
+
+<sub>  *"The question isn't who's going to let me; it's who's going to stop me." – Ayn Rand* </sub>
+</div>
+
+
+<div align="center">
 
 
