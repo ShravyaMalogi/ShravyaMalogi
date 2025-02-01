@@ -65,7 +65,9 @@
 <br/>
 
 <img src="images/elysia.gif" width="500" />
-  
+
+<div align="center">
+ 
 ## 📊 My stats
   
 <picture>
@@ -86,8 +88,5 @@
 
 <sub>  *"The question isn't who's going to let me; it's who's going to stop me." – Ayn Rand* </sub>
 </div>
-
-
-<div align="center">
 
 
