@@ -16,6 +16,7 @@
 - I have the basics in
   ![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-461D3A?style=plastic&logo=google-apps-script&logoColor=white)
   ![Automation](https://img.shields.io/badge/Automation-3A345B?style=plastic&logo=appveyor&logoColor=white)
+  ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-502a50?style=plastic&logo=openai&logoColor=white)
 
 - My other interests lie in
   ![Photography](https://img.shields.io/badge/Photography-BA71A2?style=plastic&logo=camera&logoColor=white)
