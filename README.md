@@ -1,6 +1,8 @@
 
 <div>
 
+<img src="images/lights_body.png" width="300" align="right" />
+<br/>
 <img src="images/aboutme_static.jpg" width="650" />
   
 - <img src="images/unicorn.gif" alt="." width="20" height="20"/> Student  
@@ -25,8 +27,7 @@
   ![Audacity](https://img.shields.io/badge/Audacity-71557A?style=plastic&logo=audacity&logoColor=white)
   ![Canva](https://img.shields.io/badge/Canva-502a50?style=plastic&logo=canva&logoColor=white)  
 
-
-<br/>
+<br> 
 <img src="images/repo_static.jpg" width="650" />
 <br/>
 <br/>
@@ -36,14 +37,14 @@
  <img src="images/rep_folder.gif" alt="." width="20" height="20"/> [**C**](https://github.com/ShravyaMalogi/C)  
  <img src="images/rep_folder.gif" alt="." width="20" height="20"/> [**Python**](https://github.com/ShravyaMalogi/Python-practice)  
  <img src="images/rep_folder.gif" alt="." width="20" height="20"/> [**SQL**](https://github.com/ShravyaMalogi/hackerrank-solutions-sql)  
- <img src="images/rep_folder.gif" alt="." width="20" height="20"/> [**Machine Learning**](https://github.com/ShravyaMalogi/Machine_Learning)  
+ <img src="images/rep_folder.gif" alt="." width="20" height="20"/> [**Machine Learning**](https://github.com/ShravyaMalogi/Machine_Learning) 
 </div>
 
 <br/>
 
 <div align="center">
  
-## 📊 My stats
+ **📊 My GitHub Stats**
   
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=tokyonight">
