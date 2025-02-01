@@ -1,7 +1,7 @@
 #
 <div>
 
-<img src="images/aboutme_static.jpg/" width="650" />
+<img src="images/aboutme_static.jpg" width="650" />
   
 - <img src="https://i.imgur.com/" alt="." width="16" height="16"/> Student  
 - <img src="https://i.imgur.com/" alt="."  width="16" height="16"/> 04' liner
@@ -26,13 +26,13 @@
 
 
 <br/>
-<img src="images/repo_static.img" width="500" />
+<img src="images/repo_static.jpg" width="650" />
 <br/>
 <br/>
   
-- 📗 [***C***](https://github.com/ShravyaMalogi/C) <br/>
+- <img src="images/C_repo.jpg" alt="." width="20" height="20"/> [***C***](https://github.com/ShravyaMalogi/C) <br/>
   Basics of C
-- 📘 [***Machine Learning***](https://github.com/ShravyaMalogi/Machine_Learning") <br/>
+- <img src="images/ML_repo.jpg" alt="." width="16" height="16"/> [***Machine Learning***](https://github.com/ShravyaMalogi/Machine_Learning") <br/>
   Machine Learning programs
 
 <br/>
