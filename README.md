@@ -1,7 +1,7 @@
 
 <div>
 
-<img src="images/lights_body.png" width="260" align="right" /> 
+<img src="images/lights_body.png" width="200" height="450" align="right" /> 
 <br/>
 <img src="images/aboutme_static.jpg" width="650" />
   
