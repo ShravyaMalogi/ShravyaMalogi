@@ -65,7 +65,7 @@
 
 <br/>
 
-  **My Contributions so far**
+  **My Contributions so far🌱**
   
 ![](https://raw.githubusercontent.com/ShravyaMalogi/Snake-in-Contribution-Grid/output/github-contribution-grid-snake.svg)
 
