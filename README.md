@@ -65,11 +65,17 @@
 
 <br/>
 
-  **My Contributions so far🌱**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/quote_dark.jpg" width="650">
+  <source media="(prefers-color-scheme: light)" srcset="images/quote_light.jpg" width="650">
+  <img alt="quote" src="light-mode-image.png">
+</picture>
+
+<br>
   
 ![](https://raw.githubusercontent.com/ShravyaMalogi/Snake-in-Contribution-Grid/output/github-contribution-grid-snake.svg)
 
-<sub>  *"The question isn't who's going to let me; it's who's going to stop me." – Ayn Rand* </sub>
+  **My Contributions so far🌱**
   
 <footer align="center" >
   <img align="center" alt="colored gif" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer" />
