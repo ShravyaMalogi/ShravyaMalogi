@@ -73,7 +73,8 @@
 
 <br>
   
-![](https://raw.githubusercontent.com/ShravyaMalogi/Snake-in-Contribution-Grid/output/github-contribution-grid-snake.svg)
+![](https://raw.githubusercontent.com/ShravyaMalogi/Snake-in-Contribution-Grid/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/ShravyaMalogi/Snake-in-Contribution-Grid/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
   **My Contributions so far🌱**
   
