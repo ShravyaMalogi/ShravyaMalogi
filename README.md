@@ -65,7 +65,7 @@
 
 <br/>
 
-![My Contrubitions](https://raw.githubusercontent.com/ShravyaMalogi/Snake-in-Contribution-Grid/output/github-contribution-grid-snake.svg)
+![](https://raw.githubusercontent.com/ShravyaMalogi/Snake-in-Contribution-Grid/output/github-contribution-grid-snake.svg)
 
 <sub>  *"The question isn't who's going to let me; it's who's going to stop me." – Ayn Rand* </sub>
   
