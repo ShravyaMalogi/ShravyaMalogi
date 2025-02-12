@@ -66,7 +66,7 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="images/quote_dark.jpg" width="650">
+  <source media="(prefers-color-scheme: dark)" srcset="images/quote_dark.png" width="650">
   <source media="(prefers-color-scheme: light)" srcset="images/quote_light.jpg" width="650">
   <img alt="quote" src="light-mode-image.png">
 </picture>
