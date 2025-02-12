@@ -52,7 +52,7 @@
   
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=donut&theme=midnight-purple">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=buefy&card_width=50&hide_border=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=donut&theme=buefy&card_width=50&hide_border=true">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=light" alt="My Top Languages">
 </picture>
 <br>
