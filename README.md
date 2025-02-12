@@ -51,14 +51,14 @@
  **📊 My GitHub Stats**
   
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=donut&theme=midnight-purple&card_width=50&hide_border=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=donut&theme=buefy&card_width=50&hide_border=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=midnight-purple&card_width=500&hide_border=true&langs_count=10&exclude_repo=Open_CV">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=buefy&card_width=500&hide_border=true&langs_count=10&exclude_repo=Open_CV">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=light" alt="My Top Languages">
 </picture>
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=midnight-purple&hide=stars&hide_rank=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=ambient_gradient&hide=stars&hide_rank=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=midnight-purple&hide=stars&card_width=500&rank_icon=github">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=ambient_gradient&hide=stars&card_width=500&rank_icon=github">
   <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=light" alt="My GitHub Stats">
 </picture>
 </div>
