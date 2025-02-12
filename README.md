@@ -74,7 +74,11 @@
 ![](https://raw.githubusercontent.com/ShravyaMalogi/Snake-in-Contribution-Grid/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
   **My Contributions so far🌱**
-  
+
+<br>
+
+[![Spotify](https://spotify-github-profile.kittinanx.com/api/view.svg?uid=hnb69a9g7ztmyo61fmvzf1hkb&cover_image=true&theme=novatorem&show_offline=true&background_color=7b219f&interchange=true&bar_color=00c7fc&bar_color_cover=false)](https://open.spotify.com/user/hnb69a9g7ztmyo61fmvzf1hkb)
+
 <footer align="center" >
   <img align="center" alt="colored gif" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer" />
 </footer>
