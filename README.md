@@ -52,26 +52,23 @@
   
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=midnight-purple&langs_count=10&exclude_repo=Open_CV">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=buefy&hide_border=true&exclude_repo=Open_CV">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=light" alt="My Top Languages">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=ambient_gradient&hide_border=true&exclude_repo=Open_CV">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=light" alt="My Top Languages">
 </picture>
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=midnight-purple&hide=stars&card_width=500&rank_icon=github">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&show_icons=true&theme=ambient_gradient&hide=stars&card_width=500&rank_icon=github">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=light" alt="My GitHub Stats">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&theme=midnight-purple&hide=stars&rank_icon=github">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&theme=ambient_gradient&hide=stars&rank_icon=github">
+  <img src="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&theme=light" alt="My GitHub Stats">
 </picture>
-</div>
 
-<br/>
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/quote_dark.png" width="650">
   <source media="(prefers-color-scheme: light)" srcset="images/quote_light.jpg" width="650">
   <img alt="quote" src="light-mode-image.png">
 </picture>
-
-<br>
   
 ![](https://raw.githubusercontent.com/ShravyaMalogi/Snake-in-Contribution-Grid/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/ShravyaMalogi/Snake-in-Contribution-Grid/output/github-contribution-grid-snake.svg#gh-light-mode-only)
