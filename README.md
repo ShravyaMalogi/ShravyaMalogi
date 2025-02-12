@@ -51,7 +51,7 @@
  **📊 My GitHub Stats**
   
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=midnight-purple&card_width=500&hide_border=true&langs_count=10&exclude_repo=Open_CV">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=midnight-purple&card_width=500&langs_count=10&exclude_repo=Open_CV">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=buefy&card_width=500&hide_border=true&langs_count=10&exclude_repo=Open_CV">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=light" alt="My Top Languages">
 </picture>
