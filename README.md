@@ -51,8 +51,8 @@
  **📊 My GitHub Stats**
   
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=midnight-purple&langs_count=10&exclude_repo=Open_CV">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=ambient_gradient&hide_border=true&exclude_repo=Open_CV">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=midnight-purple&langs_count=10&exclude_repo=Open_CV,Age_Gender_Detector">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=ambient_gradient&hide_border=true&exclude_repo=Open_CV,Age_Gender_Detector">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=light" alt="My Top Languages">
 </picture>
 <br>
@@ -76,8 +76,6 @@
   **My Contributions so far🌱**
 
 <br>
-
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view.svg?uid=hnb69a9g7ztmyo61fmvzf1hkb&cover_image=true&theme=novatorem&show_offline=true&background_color=7b219f&interchange=true&bar_color=00c7fc&bar_color_cover=false)](https://open.spotify.com/user/hnb69a9g7ztmyo61fmvzf1hkb)
 
 <footer align="center" >
   <img align="center" alt="colored gif" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=footer" />
