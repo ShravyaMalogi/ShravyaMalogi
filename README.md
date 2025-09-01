@@ -38,10 +38,46 @@
 
 <div align="center">
 
- <img src="images/rep_folder.gif" alt="." width="20" height="20"/> [**C**](https://github.com/ShravyaMalogi/C)  
- <img src="images/rep_folder.gif" alt="." width="20" height="20"/> [**Python**](https://github.com/ShravyaMalogi/Python-practice)  
- <img src="images/rep_folder.gif" alt="." width="20" height="20"/> [**SQL**](https://github.com/ShravyaMalogi/hackerrank-solutions-sql)  
- <img src="images/rep_folder.gif" alt="." width="20" height="20"/> [**Machine Learning**](https://github.com/ShravyaMalogi/Machine_Learning) 
+<div align="center">
+
+<a href="https://github.com/ShravyaMalogi/Car-colour-detection">
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=midnight-purple" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=default" media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=default" alt="Car-colour-detection Repo Card" width="45%"/>
+  </picture>
+</a>
+
+<a href="https://github.com/ShravyaMalogi/real-time-senior-citizen-identifier">
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=real-time-senior-citizen-identifier&theme=midnight-purple" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=real-time-senior-citizen-identifier&theme=default" media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=real-time-senior-citizen-identifier&theme=default" alt="real-time-senior-citizen-identifier Repo Card" width="45%"/>
+  </picture>
+</a>
+
+<br/>
+
+<a href="https://github.com/ShravyaMalogi/IMDB-WIKI_Age_Detection">
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=IMDB-WIKI_Age_Detection&theme=midnight-purple" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=IMDB-WIKI_Age_Detection&theme=default" media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=IMDB-WIKI_Age_Detection&theme=default" alt="IMDB-WIKI_Age_Detection Repo Card" width="45%"/>
+  </picture>
+</a>
+
+<a href="https://github.com/ShravyaMalogi/Attendance_Tracker">
+  <picture>
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=midnight-purple" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=default" media="(prefers-color-scheme: light)" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=default" alt="Placeholder Repo Card" width="45%"/>
+  </picture>
+</a>
+
+</div>
+
+
+ 
 </div>
 
 <br/>
