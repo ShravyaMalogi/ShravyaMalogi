@@ -32,7 +32,7 @@
   <br>
 
 <br> 
-<img src="images/repo_static.jpg" width="650" />
+<img src="images/projects_static.jpg" width="650" />
 <br/>
 <br/>
 
