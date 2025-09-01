@@ -42,8 +42,8 @@
 
 <a href="https://github.com/ShravyaMalogi/Car-colour-detection">
   <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=midnight-purple" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=default" media="(prefers-color-scheme: light)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=jolly" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=buefy" media="(prefers-color-scheme: light)" />
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=default" alt="Car-colour-detection Repo Card" width="45%"/>
   </picture>
 </a>
