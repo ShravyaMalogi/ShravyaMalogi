@@ -42,7 +42,7 @@
 
 <a href="https://github.com/ShravyaMalogi/Car-colour-detection">
   <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=jolly" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=jolly&border_color=#000000" media="(prefers-color-scheme: dark)" />
     <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=buefy" media="(prefers-color-scheme: light)" />
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Car-colour-detection&theme=default" alt="Car-colour-detection Repo Card" width="45%"/>
   </picture>
@@ -50,7 +50,7 @@
 
 <a href="https://github.com/ShravyaMalogi/real-time-senior-citizen-identifier">
   <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=real-time-senior-citizen-identifier&theme=jolly" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=real-time-senior-citizen-identifier&theme=jolly&border_color=#000000" media="(prefers-color-scheme: dark)" />
     <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=real-time-senior-citizen-identifier&theme=buefy" media="(prefers-color-scheme: light)" />
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=real-time-senior-citizen-identifier&theme=default" alt="real-time-senior-citizen-identifier Repo Card" width="45%"/>
   </picture>
@@ -60,7 +60,7 @@
 
 <a href="https://github.com/ShravyaMalogi/IMDB-WIKI_Age_Detection">
   <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=IMDB-WIKI_Age_Detection&theme=jolly" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=IMDB-WIKI_Age_Detection&theme=jolly&border_color=#000000" media="(prefers-color-scheme: dark)" />
     <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=IMDB-WIKI_Age_Detection&theme=buefy" media="(prefers-color-scheme: light)" />
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=IMDB-WIKI_Age_Detection&theme=default" alt="IMDB-WIKI_Age_Detection Repo Card" width="45%"/>
   </picture>
@@ -68,7 +68,7 @@
 
 <a href="https://github.com/ShravyaMalogi/Attendance_Tracker">
   <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=jolly" media="(prefers-color-scheme: dark)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=jolly&border_color=#000000" media="(prefers-color-scheme: dark)" />
     <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=buefy" media="(prefers-color-scheme: light)" />
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=default" alt="Placeholder Repo Card" width="45%"/>
   </picture>
@@ -87,13 +87,13 @@
  **📊 My GitHub Stats**
   
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=midnight-purple&langs_count=10&size_weight=0&count_weight=0.5">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=midnight-purple&langs_count=6&size_weight=0&count_weight=0.5&hide_border=true">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=ambient_gradient&hide_border=true&size_weight=0&count_weight=0.5">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=light" alt="My Top Languages">
 </picture>
 <br>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&theme=midnight-purple&hide=stars&rank_icon=github">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&theme=midnight-purple&hide=stars&rank_icon=github&hide_border=true">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&theme=ambient_gradient&hide=stars&rank_icon=github">
   <img src="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&theme=light" alt="My GitHub Stats">
 </picture>
