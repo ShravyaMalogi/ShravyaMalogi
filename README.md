@@ -73,10 +73,6 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=default" alt="Placeholder Repo Card" width="45%"/>
   </picture>
 </a>
-
-</div>
-
-
  
 </div>
 
