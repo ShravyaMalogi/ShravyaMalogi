@@ -66,13 +66,7 @@
   </picture>
 </a>
 
-<a href="https://github.com/ShravyaMalogi/Attendance_Tracker">
-  <picture>
-    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=jolly&border_color=000000" media="(prefers-color-scheme: dark)" />
-    <source srcset="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=buefy" media="(prefers-color-scheme: light)" />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShravyaMalogi&repo=Attendance_Tracker&theme=default" alt="Attendance_Tracker Repo Card" width="45%"/>
-  </picture>
-</a>
+
  
 </div>
 
