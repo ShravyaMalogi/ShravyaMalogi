@@ -81,7 +81,7 @@
 
 <div align="center">
  
- **📊 My GitHub Stats**
+# **📊 My GitHub Stats**
   
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=midnight-purple&langs_count=6&size_weight=0&count_weight=0.5&hide_border=true">
