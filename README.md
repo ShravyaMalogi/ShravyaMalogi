@@ -80,19 +80,11 @@
 <br/>
 
 <div align="center">
- 
-# **📊 My GitHub Stats**
   
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=midnight-purple&langs_count=6&size_weight=0&count_weight=0.5&hide_border=true">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=ambient_gradient&hide_border=true&size_weight=0&count_weight=0.5">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravyaMalogi&layout=compact&theme=light" alt="My Top Languages">
-</picture>
-<br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&theme=midnight-purple&hide=stars&rank_icon=github&hide_border=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&theme=ambient_gradient&hide=stars&rank_icon=github">
-  <img src="https://github-readme-stats.vercel.app/api?username=ShravyaMalogi&theme=light" alt="My GitHub Stats">
 </picture>
 
 <br>
