@@ -72,10 +72,12 @@
     #a-glow-1 { animation: drift-r 10s ease-in-out infinite; }
     #a-glow-2 { animation: drift-l 13s ease-in-out infinite; }
     #a-glow-3 { animation: pulse 8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    #b-glow-1 { animation: drift-r 9s ease-in-out infinite; }
-    #b-glow-2 { animation: pulse 6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    #c-glow-1 { animation: drift-l 11s ease-in-out infinite; }
-    #c-glow-2 { animation: pulse 7s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes sweep { 0% { transform: translateX(0px); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(370px); opacity: 0; } }
+    @keyframes march { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -773; } }
+    #b-glow-1 { animation: pulse 6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    #b-beam { animation: sweep 4s linear infinite; }
+    #c-glow-1 { animation: pulse 7s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    #c-border { animation: march 5s linear infinite; }
     #cursor { animation: blink 1s steps(1) infinite; }
   `}</style>
 
@@ -131,13 +133,14 @@
             <stop offset="50%" stopColor="rgba(0,100,220,0.2)" />
             <stop offset="70%" stopColor="rgba(0,100,220,0)" />
           </radialGradient>
-          <radialGradient id="gb2" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="rgba(0,190,230,0.35)" />
-            <stop offset="70%" stopColor="rgba(0,190,230,0)" />
-          </radialGradient>
+          <linearGradient id="gbeam" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stopColor="rgba(120,180,255,0)" />
+            <stop offset="50%" stopColor="rgba(120,180,255,0.3)" />
+            <stop offset="100%" stopColor="rgba(120,180,255,0)" />
+          </linearGradient>
         </defs>
-        <ellipse id="b-glow-1" cx="60" cy="130" rx="150" ry="80" fill="url(#gb1)" />
-        <ellipse id="b-glow-2" cx="200" cy="120" rx="90" ry="60" fill="url(#gb2)" />
+        <ellipse id="b-glow-1" cx="144" cy="135" rx="150" ry="70" fill="url(#gb1)" />
+        <rect id="b-beam" x="-70" y="0" width="70" height="119" fill="url(#gbeam)" />
       </svg>
       <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6', zIndex: 10 }}>LABEL ONE</div>
     </div>
@@ -154,13 +157,14 @@
             <stop offset="50%" stopColor="rgba(90,30,200,0.2)" />
             <stop offset="70%" stopColor="rgba(90,30,200,0)" />
           </radialGradient>
-          <radialGradient id="gc2" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="rgba(160,30,255,0.4)" />
-            <stop offset="70%" stopColor="rgba(160,30,255,0)" />
-          </radialGradient>
+          <linearGradient id="gstroke" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stopColor="#a56bff" />
+            <stop offset="100%" stopColor="#3ac8ff" />
+          </linearGradient>
         </defs>
-        <ellipse id="c-glow-1" cx="230" cy="130" rx="150" ry="80" fill="url(#gc1)" />
-        <ellipse id="c-glow-2" cx="90" cy="125" rx="90" ry="60" fill="url(#gc2)" />
+        <ellipse id="c-glow-1" cx="144" cy="135" rx="150" ry="70" fill="url(#gc1)" />
+        <rect id="c-border" x="1" y="1" width="286" height="117" rx="19" fill="none"
+          stroke="url(#gstroke)" strokeWidth="2" strokeLinecap="round" strokeDasharray="80 693" />
       </svg>
       <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6', zIndex: 10 }}>LABEL TWO</div>
     </div>
@@ -227,17 +231,17 @@
 </div>
 ```
 
-```aura width=130 height=44 link="https://github.com/YOUR_USERNAME" inline align=center
-<SocialMediaButton icon="https://cdn.simpleicons.org/github/white" text="GitHub"
-  backgroundColor="#111111" width={130} height={44} iconSize="18" />
+```aura width=130 height=44 link="https://github.com/ShravyaMalogi" inline align=center
+<SocialMediaButton icon="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMTIgLjI5N2MtNi42MyAwLTEyIDUuMzczLTEyIDEyIDAgNS4zMDMgMy40MzggOS44IDguMjA1IDExLjM4NS42LjExMy44Mi0uMjU4LjgyLS41NzcgMC0uMjg1LS4wMS0xLjA0LS4wMTUtMi4wNC0zLjMzOC43MjQtNC4wNDItMS42MS00LjA0Mi0xLjYxQzQuNDIyIDE4LjA3IDMuNjMzIDE3LjcgMy42MzMgMTcuN2MtMS4wODctLjc0NC4wODQtLjcyOS4wODQtLjcyOSAxLjIwNS4wODQgMS44MzggMS4yMzYgMS44MzggMS4yMzYgMS4wNyAxLjgzNSAyLjgwOSAxLjMwNSAzLjQ5NS45OTguMTA4LS43NzYuNDE3LTEuMzA1Ljc2LTEuNjA1LTIuNjY1LS4zLTUuNDY2LTEuMzMyLTUuNDY2LTUuOTMgMC0xLjMxLjQ2NS0yLjM4IDEuMjM1LTMuMjItLjEzNS0uMzAzLS41NC0xLjUyMy4xMDUtMy4xNzYgMCAwIDEuMDA1LS4zMjIgMy4zIDEuMjMuOTYtLjI2NyAxLjk4LS4zOTkgMy0uNDA1IDEuMDIuMDA2IDIuMDQuMTM4IDMgLjQwNSAyLjI4LTEuNTUyIDMuMjg1LTEuMjMgMy4yODUtMS4yMy42NDUgMS42NTMuMjQgMi44NzMuMTIgMy4xNzYuNzY1Ljg0IDEuMjMgMS45MSAxLjIzIDMuMjIgMCA0LjYxLTIuODA1IDUuNjI1LTUuNDc1IDUuOTIuNDIuMzYuODEgMS4wOTYuODEgMi4yMiAwIDEuNjA2LS4wMTUgMi44OTYtLjAxNSAzLjI4NiAwIC4zMTUuMjEuNjkuODI1LjU3QzIwLjU2NSAyMi4wOTIgMjQgMTcuNTkyIDI0IDEyLjI5N2MwLTYuNjI3LTUuMzczLTEyLTEyLTEyIi8+PC9zdmc+"
+  text="GitHub" backgroundColor="#111111" width={130} height={44} iconSize="18" />
 ```
 
-```aura width=130 height=44 link="https://linkedin.com/in/YOUR_LINKEDIN" inline align=center
-<SocialMediaButton icon="https://cdn.simpleicons.org/linkedin/white" text="LinkedIn"
-  backgroundColor="#0a1a2a" width={130} height={44} iconSize="18" />
+```aura width=130 height=44 link="https://linkedin.com/in/shravyamalogi" inline align=center
+<SocialMediaButton icon="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHJlY3QgZmlsbD0iI2ZmZmZmZiIgeD0iMiIgeT0iOSIgd2lkdGg9IjQiIGhlaWdodD0iMTIiLz48Y2lyY2xlIGZpbGw9IiNmZmZmZmYiIGN4PSI0IiBjeT0iNC41IiByPSIyLjQiLz48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNOSA5aDMuOHYxLjdjLjYtMS4xIDItMiAzLjktMiAzLjYgMCA0LjMgMi40IDQuMyA1LjRWMjFoLTR2LTYuMWMwLTEuNSAwLTMuMS0xLjktMy4xcy0yLjEgMS40LTIuMSAzVjIxSDl6Ii8+PC9zdmc+"
+  text="LinkedIn" backgroundColor="#0a1a2a" width={130} height={44} iconSize="18" />
 ```
 
-```aura width=130 height=44 link="mailto:YOUR_EMAIL@example.com" inline align=center
-<SocialMediaButton icon="https://cdn.simpleicons.org/gmail/white" text="Email"
-  backgroundColor="#1a0a0a" width={130} height={44} iconSize="18" />
+```aura width=130 height=44 link="mailto:shravyamwork@gmail.com" inline align=center
+<SocialMediaButton icon="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMjQgNS40NTd2MTMuOTA5YzAgLjkwNC0uNzMyIDEuNjM2LTEuNjM2IDEuNjM2aC0zLjgxOVYxMS43M0wxMiAxNi42NGwtNi41NDUtNC45MXY5LjI3M0gxLjYzNkExLjYzNiAxLjYzNiAwIDAgMSAwIDE5LjM2NlY1LjQ1N2MwLTIuMDIzIDIuMzA5LTMuMTc4IDMuOTI3LTEuOTY0TDUuNDU1IDQuNjQgMTIgOS41NDhsNi41NDUtNC45MSAxLjUyOC0xLjE0NUMyMS42OSAyLjI4IDI0IDMuNDM0IDI0IDUuNDU3eiIvPjwvc3ZnPg=="
+  text="Email" backgroundColor="#1a0a0a" width={130} height={44} iconSize="18" />
 ```
