@@ -46,10 +46,10 @@
     {github?.user?.login || 'YOUR_USERNAME'}
   </div>
   <div style={{ display: 'flex', marginTop: 10, fontSize: 14, letterSpacing: 8, color: 'rgba(180,165,255,0.7)', zIndex: 10 }}>
-    WORD ONE · WORD TWO · WORD THREE
+    THINK · BUILD · IMPROVE
   </div>
   <div style={{ display: 'flex', marginTop: 24, zIndex: 10 }}>
-    {['tag one', 'tag two', 'tag three'].map(function (tag, i) {
+    {['Artificial Intelligence', 'Machine Learning & Data', 'Workflow Automation'].map(function (tag, i) {
       return (
         <div key={tag + i} style={{
           display: 'flex', padding: '6px 18px', marginRight: 10, borderRadius: 999,
@@ -109,10 +109,10 @@
     </svg>
     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: 36, zIndex: 10 }}>
       <div style={{ display: 'flex', fontSize: 12, letterSpacing: 4, color: '#8a7fa8' }}>ABOUT</div>
-      <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff', marginTop: 8 }}>Your headline line one</div>
-      <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff' }}>your headline line two.</div>
+      <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff', marginTop: 8 }}>A little curiosity.</div>
+      <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff' }}> A lot of figuring things out.</div>
       <div style={{ display: 'flex', alignItems: 'center', marginTop: 16 }}>
-        <div style={{ display: 'flex', fontSize: 13, color: '#9aa0ad' }}>&gt; your short status line</div>
+        <div style={{ display: 'flex', fontSize: 13, color: '#9aa0ad' }}>&gt; Turning 'what if?' into 'what's next?'</div>
         <svg width="8" height="16" style={{ marginLeft: 4 }}>
           <rect id="cursor" x="0" y="2" width="7" height="12" fill="#b9a8ff" />
         </svg>
@@ -142,7 +142,7 @@
         <ellipse id="b-glow-1" cx="144" cy="135" rx="150" ry="70" fill="url(#gb1)" />
         <rect id="b-beam" x="-70" y="0" width="70" height="119" fill="url(#gbeam)" />
       </svg>
-      <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6', zIndex: 10 }}>LABEL ONE</div>
+      <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6', zIndex: 10 }}>FINDING THE GAP</div>
     </div>
 
     <div style={{
@@ -166,7 +166,7 @@
         <rect id="c-border" x="1" y="1" width="286" height="117" rx="19" fill="none"
           stroke="url(#gstroke)" strokeWidth="2" strokeLinecap="round" strokeDasharray="80 693" />
       </svg>
-      <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6', zIndex: 10 }}>LABEL TWO</div>
+      <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6', zIndex: 10 }}>MAKING IT HAPPEN</div>
     </div>
   </div>
 </div>
@@ -218,7 +218,7 @@
 
   <div style={{ display: 'flex', fontSize: 12, letterSpacing: 4, color: '#6b7080', marginBottom: 18, zIndex: 10 }}>STACK</div>
   <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: 640, zIndex: 10 }}>
-    {['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4', 'Skill 5', 'Skill 6', 'Skill 7', 'Skill 8'].map(function (t, i) {
+    {['Python', 'Machine Learning', 'Deep Learning', 'TensorFlow', 'n8n', 'Gen AI', 'LangChain', 'LLM APIs', 'REST APIs', 'Google Cloud (GCP)'].map(function (t, i) {
       return (
         <div key={t + i} style={{
           display: 'flex', padding: '6px 16px', margin: 5, borderRadius: 999,
