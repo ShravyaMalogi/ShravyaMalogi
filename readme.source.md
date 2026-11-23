@@ -70,14 +70,11 @@
     @keyframes pulse { 0%,100% { transform: scale(1); opacity: 0.85; } 50% { transform: scale(1.35); opacity: 0.4; } }
     @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
     @keyframes sweep { 0% { transform: translateX(0px); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(370px); opacity: 0; } }
-    @keyframes march { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -773; } }
     #a-glow-1 { animation: drift-r 10s ease-in-out infinite; }
     #a-glow-2 { animation: drift-l 13s ease-in-out infinite; }
     #a-glow-3 { animation: pulse 8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
     #b-glow-1 { animation: pulse 6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
     #b-beam { animation: sweep 4s linear infinite; }
-    #c-glow-1 { animation: pulse 7s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    #c-border { animation: march 5s linear infinite; }
     #cursor { animation: blink 1s steps(1) infinite; }
   `}</style>
 
@@ -126,14 +123,20 @@
       width: 288, height: 119, marginBottom: 12, borderRadius: 20,
       background: '#0b0c12', border: '1px solid rgba(110,80,220,0.18)'
     }}>
-      <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6' }}>FINDING THE GAP</div>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <div style={{ display: 'flex', fontSize: 12, fontWeight: 600, letterSpacing: 3, color: '#d6d9e0' }}>FINDING THE GAP</div>
+        <div style={{ display: 'flex', fontSize: 12, color: '#8b8f9a', marginTop: 8 }}>Spotting what’s missing</div>
+      </div>
     </div>
     <div style={{
       display: 'flex', alignItems: 'center', justifyContent: 'center',
       width: 288, height: 119, borderRadius: 20,
       background: '#0b0c12', border: '1px solid rgba(110,80,220,0.18)'
     }}>
-      <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6' }}>MAKING IT HAPPEN</div>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <div style={{ display: 'flex', fontSize: 12, fontWeight: 600, letterSpacing: 3, color: '#d6d9e0' }}>MAKING IT HAPPEN</div>
+        <div style={{ display: 'flex', fontSize: 12, color: '#8b8f9a', marginTop: 8 }}>Ideas into working things</div>
+      </div>
     </div>
   </div>
 
@@ -151,27 +154,28 @@
         <stop offset="50%" stopColor="rgba(120,180,255,0.3)" />
         <stop offset="100%" stopColor="rgba(120,180,255,0)" />
       </linearGradient>
-      <radialGradient id="gc1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(110,40,240,0.5)" />
-        <stop offset="50%" stopColor="rgba(90,30,200,0.2)" />
-        <stop offset="70%" stopColor="rgba(90,30,200,0)" />
-      </radialGradient>
-      <linearGradient id="gstroke" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stopColor="#a56bff" />
-        <stop offset="100%" stopColor="#3ac8ff" />
-      </linearGradient>
     </defs>
     <g clipPath="url(#clip-b)">
       <ellipse id="b-glow-1" cx="716" cy="135" rx="150" ry="70" fill="url(#gb1)" />
       <rect id="b-beam" x="502" y="0" width="70" height="119" fill="url(#gbeam)" />
     </g>
     <g clipPath="url(#clip-c)">
-      <ellipse id="c-glow-1" cx="716" cy="266" rx="150" ry="70" fill="url(#gc1)" />
+      <circle cx="804" cy="190" r="4" fill="#c9a8ff">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="804" cy="190" r="6" fill="none" stroke="#a56bff" strokeWidth="1.5" opacity="0">
+        <animate attributeName="r" from="6" to="130" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" from="0.75" to="0" dur="4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="804" cy="190" r="6" fill="none" stroke="#6f8cff" strokeWidth="1.5" opacity="0">
+        <animate attributeName="r" from="6" to="130" dur="4s" begin="1.33s" repeatCount="indefinite" />
+        <animate attributeName="opacity" from="0.75" to="0" dur="4s" begin="1.33s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="804" cy="190" r="6" fill="none" stroke="#3ac8ff" strokeWidth="1.5" opacity="0">
+        <animate attributeName="r" from="6" to="130" dur="4s" begin="2.66s" repeatCount="indefinite" />
+        <animate attributeName="opacity" from="0.75" to="0" dur="4s" begin="2.66s" repeatCount="indefinite" />
+      </circle>
     </g>
-    <rect
-      id="c-border" x="573" y="132" width="286" height="117" rx="19" fill="none"
-      stroke="url(#gstroke)" strokeWidth="2" strokeLinecap="round" strokeDasharray="80 693"
-    />
   </svg>
 </div>
 ```
