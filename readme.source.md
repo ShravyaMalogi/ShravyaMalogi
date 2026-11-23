@@ -109,7 +109,7 @@
       <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff', marginTop: 8 }}>A little curiosity.</div>
       <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff' }}>A lot of figuring things out.</div>
       <div style={{ display: 'flex', alignItems: 'center', marginTop: 16 }}>
-        <div style={{ display: 'flex', fontSize: 13, color: '#9aa0ad' }}>&gt; Turning ‘what if?’ into ‘what’s next?’</div>
+        <div style={{ display: 'flex', fontSize: 13, color: '#9aa0ad' }}>&gt; open to collaborations_</div>
         <svg width="8" height="16" style={{ marginLeft: 4 }}>
           <rect id="cursor" x="0" y="2" width="7" height="12" fill="#b9a8ff" />
         </svg>
@@ -226,7 +226,7 @@
 
   <div style={{ display: 'flex', fontSize: 12, letterSpacing: 4, color: '#6b7080', marginBottom: 18, zIndex: 10 }}>STACK</div>
   <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: 640, zIndex: 10 }}>
-    {['Python', 'Machine Learning', 'OpenCV', 'Deep Learning', 'TensorFlow', 'Google Sheets', 'n8n', 'RAG', 'Gen AI', 'LangChain', 'LLM APIs', 'REST APIs', 'Google Cloud (GCP)'].map(function (t, i) {
+    {['Python', 'Machine Learning', 'OpenCV', 'Deep Learning(CNNs)', 'TensorFlow', 'Google Sheets', 'SQL', 'n8n', 'RAG', 'Gen AI', 'LangChain', 'LLM APIs', 'REST APIs', 'MCP', 'Streamlit', 'FastAPI', 'Google Cloud (GCP)'].map(function (t, i) {
       return (
         <div key={t + i} style={{
           display: 'flex', padding: '6px 16px', margin: 5, borderRadius: 999,
