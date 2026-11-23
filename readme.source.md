@@ -1,4 +1,4 @@
-```aura width=860 height=320 link="https://github.com/YOUR_USERNAME"
+```aura width=860 height=320 link="https://github.com/ShravyaMalogi"
 <div style={{
   width: '100%', height: '100%', background: '#08080c',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
@@ -43,10 +43,10 @@
   </svg>
 
   <div style={{ display: 'flex', fontSize: 64, fontWeight: 800, color: '#ffffff', letterSpacing: '-1px', zIndex: 10 }}>
-    {github?.user?.login || 'YOUR_USERNAME'}
+    {github?.user?.login || 'ShravyaMalogi'}
   </div>
   <div style={{ display: 'flex', marginTop: 10, fontSize: 14, letterSpacing: 8, color: 'rgba(180,165,255,0.7)', zIndex: 10 }}>
-    THINK · BUILD · IMPROVE
+    THOUGHTS · TRIALS · BREAKTHROUGHS
   </div>
   <div style={{ display: 'flex', marginTop: 24, zIndex: 10 }}>
     {['Artificial Intelligence', 'Machine Learning & Data', 'Workflow Automation'].map(function (tag, i) {
@@ -124,8 +124,8 @@
       background: '#0b0c12', border: '1px solid rgba(110,80,220,0.18)'
     }}>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <div style={{ display: 'flex', fontSize: 12, fontWeight: 600, letterSpacing: 3, color: '#d6d9e0' }}>FINDING THE GAP</div>
-        <div style={{ display: 'flex', fontSize: 12, color: '#8b8f9a', marginTop: 8 }}>Spotting what’s missing</div>
+        <div style={{ display: 'flex', fontSize: 12, fontWeight: 600, letterSpacing: 3, color: '#d6d9e0' }}>WHAT IF?</div>
+        <div style={{ display: 'flex', fontSize: 12, color: '#8b8f9a', marginTop: 8 }}>It starts with a question</div>
       </div>
     </div>
     <div style={{
@@ -134,8 +134,8 @@
       background: '#0b0c12', border: '1px solid rgba(110,80,220,0.18)'
     }}>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <div style={{ display: 'flex', fontSize: 12, fontWeight: 600, letterSpacing: 3, color: '#d6d9e0' }}>MAKING IT HAPPEN</div>
-        <div style={{ display: 'flex', fontSize: 12, color: '#8b8f9a', marginTop: 8 }}>Ideas into working things</div>
+        <div style={{ display: 'flex', fontSize: 12, fontWeight: 600, letterSpacing: 3, color: '#d6d9e0' }}>WHY NOT?</div>
+        <div style={{ display: 'flex', fontSize: 12, color: '#8b8f9a', marginTop: 8 }}>It gets interesting from here</div>
       </div>
     </div>
   </div>
@@ -226,7 +226,7 @@
 
   <div style={{ display: 'flex', fontSize: 12, letterSpacing: 4, color: '#6b7080', marginBottom: 18, zIndex: 10 }}>STACK</div>
   <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: 640, zIndex: 10 }}>
-    {['Python', 'Machine Learning', 'Deep Learning', 'TensorFlow', 'n8n', 'Gen AI', 'LangChain', 'LLM APIs', 'REST APIs', 'Google Cloud (GCP)'].map(function (t, i) {
+    {['Python', 'Machine Learning', 'OpenCV', 'Deep Learning', 'TensorFlow', 'Google Sheets', 'n8n', 'RAG', 'Gen AI', 'LangChain', 'LLM APIs', 'REST APIs', 'Google Cloud (GCP)'].map(function (t, i) {
       return (
         <div key={t + i} style={{
           display: 'flex', padding: '6px 16px', margin: 5, borderRadius: 999,
@@ -239,9 +239,9 @@
 </div>
 ```
 
-```aura width=130 height=44 link="https://github.com/ShravyaMalogi" inline align=center
+```aura width=130 height=44 link="https://shravyamalogi.github.io/portfolio/" inline align=center
 <SocialMediaButton icon="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMTIgLjI5N2MtNi42MyAwLTEyIDUuMzczLTEyIDEyIDAgNS4zMDMgMy40MzggOS44IDguMjA1IDExLjM4NS42LjExMy44Mi0uMjU4LjgyLS41NzcgMC0uMjg1LS4wMS0xLjA0LS4wMTUtMi4wNC0zLjMzOC43MjQtNC4wNDItMS42MS00LjA0Mi0xLjYxQzQuNDIyIDE4LjA3IDMuNjMzIDE3LjcgMy42MzMgMTcuN2MtMS4wODctLjc0NC4wODQtLjcyOS4wODQtLjcyOSAxLjIwNS4wODQgMS44MzggMS4yMzYgMS44MzggMS4yMzYgMS4wNyAxLjgzNSAyLjgwOSAxLjMwNSAzLjQ5NS45OTguMTA4LS43NzYuNDE3LTEuMzA1Ljc2LTEuNjA1LTIuNjY1LS4zLTUuNDY2LTEuMzMyLTUuNDY2LTUuOTMgMC0xLjMxLjQ2NS0yLjM4IDEuMjM1LTMuMjItLjEzNS0uMzAzLS41NC0xLjUyMy4xMDUtMy4xNzYgMCAwIDEuMDA1LS4zMjIgMy4zIDEuMjMuOTYtLjI2NyAxLjk4LS4zOTkgMy0uNDA1IDEuMDIuMDA2IDIuMDQuMTM4IDMgLjQwNSAyLjI4LTEuNTUyIDMuMjg1LTEuMjMgMy4yODUtMS4yMy42NDUgMS42NTMuMjQgMi44NzMuMTIgMy4xNzYuNzY1Ljg0IDEuMjMgMS45MSAxLjIzIDMuMjIgMCA0LjYxLTIuODA1IDUuNjI1LTUuNDc1IDUuOTIuNDIuMzYuODEgMS4wOTYuODEgMi4yMiAwIDEuNjA2LS4wMTUgMi44OTYtLjAxNSAzLjI4NiAwIC4zMTUuMjEuNjkuODI1LjU3QzIwLjU2NSAyMi4wOTIgMjQgMTcuNTkyIDI0IDEyLjI5N2MwLTYuNjI3LTUuMzczLTEyLTEyLTEyIi8+PC9zdmc+"
-  text="GitHub" backgroundColor="#111111" width={130} height={44} iconSize="18" />
+  text="Portfolio" backgroundColor="#111111" width={130} height={44} iconSize="18" />
 ```
 
 ```aura width=130 height=44 link="https://linkedin.com/in/shravyamalogi" inline align=center
