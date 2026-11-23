@@ -69,11 +69,11 @@
     @keyframes drift-l { 0%,100% { transform: translateX(0px); opacity: 0.7; } 50% { transform: translateX(-220px); opacity: 1; } }
     @keyframes pulse { 0%,100% { transform: scale(1); opacity: 0.85; } 50% { transform: scale(1.35); opacity: 0.4; } }
     @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes sweep { 0% { transform: translateX(0px); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(370px); opacity: 0; } }
+    @keyframes march { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -773; } }
     #a-glow-1 { animation: drift-r 10s ease-in-out infinite; }
     #a-glow-2 { animation: drift-l 13s ease-in-out infinite; }
     #a-glow-3 { animation: pulse 8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    @keyframes sweep { 0% { transform: translateX(0px); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(370px); opacity: 0; } }
-    @keyframes march { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -773; } }
     #b-glow-1 { animation: pulse 6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
     #b-beam { animation: sweep 4s linear infinite; }
     #c-glow-1 { animation: pulse 7s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
@@ -107,12 +107,12 @@
       <ellipse id="a-glow-2" cx="440" cy="280" rx="200" ry="130" fill="url(#ga2)" />
       <ellipse id="a-glow-3" cx="300" cy="270" rx="150" ry="100" fill="url(#ga3)" />
     </svg>
-    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: 36, zIndex: 10 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: 36 }}>
       <div style={{ display: 'flex', fontSize: 12, letterSpacing: 4, color: '#8a7fa8' }}>ABOUT</div>
       <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff', marginTop: 8 }}>A little curiosity.</div>
-      <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff' }}> A lot of figuring things out.</div>
+      <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff' }}>A lot of figuring things out.</div>
       <div style={{ display: 'flex', alignItems: 'center', marginTop: 16 }}>
-        <div style={{ display: 'flex', fontSize: 13, color: '#9aa0ad' }}>&gt; Turning 'what if?' into 'what's next?'</div>
+        <div style={{ display: 'flex', fontSize: 13, color: '#9aa0ad' }}>&gt; Turning ‘what if?’ into ‘what’s next?’</div>
         <svg width="8" height="16" style={{ marginLeft: 4 }}>
           <rect id="cursor" x="0" y="2" width="7" height="12" fill="#b9a8ff" />
         </svg>
@@ -122,53 +122,57 @@
 
   <div style={{ display: 'flex', flexDirection: 'column', width: 288, height: 250 }}>
     <div style={{
-      display: 'flex', position: 'relative', overflow: 'hidden', alignItems: 'center', justifyContent: 'center',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
       width: 288, height: 119, marginBottom: 12, borderRadius: 20,
       background: '#0b0c12', border: '1px solid rgba(110,80,220,0.18)'
     }}>
-      <svg width="288" height="119" style={{ position: 'absolute', top: 0, left: 0 }}>
-        <defs>
-          <radialGradient id="gb1" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="rgba(0,130,255,0.5)" />
-            <stop offset="50%" stopColor="rgba(0,100,220,0.2)" />
-            <stop offset="70%" stopColor="rgba(0,100,220,0)" />
-          </radialGradient>
-          <linearGradient id="gbeam" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%" stopColor="rgba(120,180,255,0)" />
-            <stop offset="50%" stopColor="rgba(120,180,255,0.3)" />
-            <stop offset="100%" stopColor="rgba(120,180,255,0)" />
-          </linearGradient>
-        </defs>
-        <ellipse id="b-glow-1" cx="144" cy="135" rx="150" ry="70" fill="url(#gb1)" />
-        <rect id="b-beam" x="-70" y="0" width="70" height="119" fill="url(#gbeam)" />
-      </svg>
-      <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6', zIndex: 10 }}>FINDING THE GAP</div>
+      <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6' }}>FINDING THE GAP</div>
     </div>
-
     <div style={{
-      display: 'flex', position: 'relative', overflow: 'hidden', alignItems: 'center', justifyContent: 'center',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
       width: 288, height: 119, borderRadius: 20,
       background: '#0b0c12', border: '1px solid rgba(110,80,220,0.18)'
     }}>
-      <svg width="288" height="119" style={{ position: 'absolute', top: 0, left: 0 }}>
-        <defs>
-          <radialGradient id="gc1" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="rgba(110,40,240,0.5)" />
-            <stop offset="50%" stopColor="rgba(90,30,200,0.2)" />
-            <stop offset="70%" stopColor="rgba(90,30,200,0)" />
-          </radialGradient>
-          <linearGradient id="gstroke" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stopColor="#a56bff" />
-            <stop offset="100%" stopColor="#3ac8ff" />
-          </linearGradient>
-        </defs>
-        <ellipse id="c-glow-1" cx="144" cy="135" rx="150" ry="70" fill="url(#gc1)" />
-        <rect id="c-border" x="1" y="1" width="286" height="117" rx="19" fill="none"
-          stroke="url(#gstroke)" strokeWidth="2" strokeLinecap="round" strokeDasharray="80 693" />
-      </svg>
-      <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6', zIndex: 10 }}>MAKING IT HAPPEN</div>
+      <div style={{ display: 'flex', fontSize: 12, letterSpacing: 3, color: '#b4bac6' }}>MAKING IT HAPPEN</div>
     </div>
   </div>
+
+  <svg width="860" height="250" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <clipPath id="clip-b"><rect x="572" y="0" width="288" height="119" rx="20" /></clipPath>
+      <clipPath id="clip-c"><rect x="572" y="131" width="288" height="119" rx="20" /></clipPath>
+      <radialGradient id="gb1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(0,130,255,0.5)" />
+        <stop offset="50%" stopColor="rgba(0,100,220,0.2)" />
+        <stop offset="70%" stopColor="rgba(0,100,220,0)" />
+      </radialGradient>
+      <linearGradient id="gbeam" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stopColor="rgba(120,180,255,0)" />
+        <stop offset="50%" stopColor="rgba(120,180,255,0.3)" />
+        <stop offset="100%" stopColor="rgba(120,180,255,0)" />
+      </linearGradient>
+      <radialGradient id="gc1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(110,40,240,0.5)" />
+        <stop offset="50%" stopColor="rgba(90,30,200,0.2)" />
+        <stop offset="70%" stopColor="rgba(90,30,200,0)" />
+      </radialGradient>
+      <linearGradient id="gstroke" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stopColor="#a56bff" />
+        <stop offset="100%" stopColor="#3ac8ff" />
+      </linearGradient>
+    </defs>
+    <g clipPath="url(#clip-b)">
+      <ellipse id="b-glow-1" cx="716" cy="135" rx="150" ry="70" fill="url(#gb1)" />
+      <rect id="b-beam" x="502" y="0" width="70" height="119" fill="url(#gbeam)" />
+    </g>
+    <g clipPath="url(#clip-c)">
+      <ellipse id="c-glow-1" cx="716" cy="266" rx="150" ry="70" fill="url(#gc1)" />
+    </g>
+    <rect
+      id="c-border" x="573" y="132" width="286" height="117" rx="19" fill="none"
+      stroke="url(#gstroke)" strokeWidth="2" strokeLinecap="round" strokeDasharray="80 693"
+    />
+  </svg>
 </div>
 ```
 
