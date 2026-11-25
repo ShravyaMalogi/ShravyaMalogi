@@ -78,6 +78,51 @@
     #cursor { animation: blink 1s steps(1) infinite; }
   `}</style>
 
+  <svg width="860" height="250" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <clipPath id="clip-b"><rect x="572" y="0" width="288" height="119" rx="20" /></clipPath>
+      <clipPath id="clip-c"><rect x="572" y="131" width="288" height="119" rx="20" /></clipPath>
+      <filter id="soft" filterUnits="userSpaceOnUse" x="572" y="131" width="288" height="119">
+        <feGaussianBlur stdDeviation="3" />
+      </filter>
+      <radialGradient id="gb1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(0,130,255,0.5)" />
+        <stop offset="50%" stopColor="rgba(0,100,220,0.2)" />
+        <stop offset="70%" stopColor="rgba(0,100,220,0)" />
+      </radialGradient>
+      <linearGradient id="gbeam" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stopColor="rgba(120,180,255,0)" />
+        <stop offset="50%" stopColor="rgba(120,180,255,0.3)" />
+        <stop offset="100%" stopColor="rgba(120,180,255,0)" />
+      </linearGradient>
+    </defs>
+    <rect x="572" y="0" width="288" height="119" rx="20" fill="#0b0c12" />
+    <rect x="572" y="131" width="288" height="119" rx="20" fill="#0b0c12" />
+    <g clipPath="url(#clip-b)">
+      <ellipse id="b-glow-1" cx="716" cy="135" rx="150" ry="70" fill="url(#gb1)" />
+      <rect id="b-beam" x="502" y="0" width="70" height="119" fill="url(#gbeam)" />
+    </g>
+    <g clipPath="url(#clip-c)">
+      <g filter="url(#soft)">
+        <circle cx="716" cy="190" r="7" fill="#c9a8ff">
+          <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="716" cy="190" r="8" fill="none" stroke="#a56bff" strokeWidth="3" opacity="0">
+          <animate attributeName="r" from="8" to="130" dur="4s" repeatCount="indefinite" />
+          <animate attributeName="opacity" from="0.8" to="0" dur="4s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="716" cy="190" r="8" fill="none" stroke="#6f8cff" strokeWidth="3" opacity="0">
+          <animate attributeName="r" from="8" to="130" dur="4s" begin="1.33s" repeatCount="indefinite" />
+          <animate attributeName="opacity" from="0.8" to="0" dur="4s" begin="1.33s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="716" cy="190" r="8" fill="none" stroke="#3ac8ff" strokeWidth="3" opacity="0">
+          <animate attributeName="r" from="8" to="130" dur="4s" begin="2.66s" repeatCount="indefinite" />
+          <animate attributeName="opacity" from="0.8" to="0" dur="4s" begin="2.66s" repeatCount="indefinite" />
+        </circle>
+      </g>
+    </g>
+  </svg>
+
   <div style={{
     display: 'flex', position: 'relative', overflow: 'hidden',
     width: 560, height: 250, marginRight: 12, borderRadius: 20,
@@ -109,7 +154,7 @@
       <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff', marginTop: 8 }}>A little curiosity.</div>
       <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff' }}>A lot of figuring things out.</div>
       <div style={{ display: 'flex', alignItems: 'center', marginTop: 16 }}>
-        <div style={{ display: 'flex', fontSize: 13, color: '#9aa0ad' }}>&gt; open to collaborations_</div>
+        <div style={{ display: 'flex', fontSize: 13, color: '#9aa0ad' }}>&gt; Turning ‘what if?’ into ‘what’s next?’</div>
         <svg width="8" height="16" style={{ marginLeft: 4 }}>
           <rect id="cursor" x="0" y="2" width="7" height="12" fill="#b9a8ff" />
         </svg>
@@ -121,62 +166,24 @@
     <div style={{
       display: 'flex', alignItems: 'center', justifyContent: 'center',
       width: 288, height: 119, marginBottom: 12, borderRadius: 20,
-      background: '#0b0c12', border: '1px solid rgba(110,80,220,0.18)'
+      border: '1px solid rgba(110,80,220,0.18)'
     }}>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <div style={{ display: 'flex', fontSize: 12, fontWeight: 600, letterSpacing: 3, color: '#d6d9e0' }}>WHAT IF?</div>
-        <div style={{ display: 'flex', fontSize: 12, color: '#8b8f9a', marginTop: 8 }}>It starts with a question</div>
+        <div style={{ display: 'flex', fontSize: 13, fontWeight: 700, letterSpacing: 3, color: '#ffffff' }}>WHAT IF?</div>
+        <div style={{ display: 'flex', fontSize: 13, color: '#cbb6ff', marginTop: 8 }}>It starts with a question</div>
       </div>
     </div>
     <div style={{
       display: 'flex', alignItems: 'center', justifyContent: 'center',
       width: 288, height: 119, borderRadius: 20,
-      background: '#0b0c12', border: '1px solid rgba(110,80,220,0.18)'
+      border: '1px solid rgba(110,80,220,0.18)'
     }}>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <div style={{ display: 'flex', fontSize: 12, fontWeight: 600, letterSpacing: 3, color: '#d6d9e0' }}>WHY NOT?</div>
-        <div style={{ display: 'flex', fontSize: 12, color: '#8b8f9a', marginTop: 8 }}>It gets interesting from here</div>
+        <div style={{ display: 'flex', fontSize: 13, fontWeight: 700, letterSpacing: 3, color: '#ffffff' }}>WHY NOT?</div>
+        <div style={{ display: 'flex', fontSize: 13, color: '#cbb6ff', marginTop: 8 }}>It gets interesting from here</div>
       </div>
     </div>
   </div>
-
-  <svg width="860" height="250" style={{ position: 'absolute', top: 0, left: 0 }}>
-    <defs>
-      <clipPath id="clip-b"><rect x="572" y="0" width="288" height="119" rx="20" /></clipPath>
-      <clipPath id="clip-c"><rect x="572" y="131" width="288" height="119" rx="20" /></clipPath>
-      <radialGradient id="gb1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(0,130,255,0.5)" />
-        <stop offset="50%" stopColor="rgba(0,100,220,0.2)" />
-        <stop offset="70%" stopColor="rgba(0,100,220,0)" />
-      </radialGradient>
-      <linearGradient id="gbeam" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stopColor="rgba(120,180,255,0)" />
-        <stop offset="50%" stopColor="rgba(120,180,255,0.3)" />
-        <stop offset="100%" stopColor="rgba(120,180,255,0)" />
-      </linearGradient>
-    </defs>
-    <g clipPath="url(#clip-b)">
-      <ellipse id="b-glow-1" cx="716" cy="135" rx="150" ry="70" fill="url(#gb1)" />
-      <rect id="b-beam" x="502" y="0" width="70" height="119" fill="url(#gbeam)" />
-    </g>
-    <g clipPath="url(#clip-c)">
-      <circle cx="804" cy="190" r="4" fill="#c9a8ff">
-        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="804" cy="190" r="6" fill="none" stroke="#a56bff" strokeWidth="1.5" opacity="0">
-        <animate attributeName="r" from="6" to="130" dur="4s" repeatCount="indefinite" />
-        <animate attributeName="opacity" from="0.75" to="0" dur="4s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="804" cy="190" r="6" fill="none" stroke="#6f8cff" strokeWidth="1.5" opacity="0">
-        <animate attributeName="r" from="6" to="130" dur="4s" begin="1.33s" repeatCount="indefinite" />
-        <animate attributeName="opacity" from="0.75" to="0" dur="4s" begin="1.33s" repeatCount="indefinite" />
-      </circle>
-      <circle cx="804" cy="190" r="6" fill="none" stroke="#3ac8ff" strokeWidth="1.5" opacity="0">
-        <animate attributeName="r" from="6" to="130" dur="4s" begin="2.66s" repeatCount="indefinite" />
-        <animate attributeName="opacity" from="0.75" to="0" dur="4s" begin="2.66s" repeatCount="indefinite" />
-      </circle>
-    </g>
-  </svg>
 </div>
 ```
 
@@ -224,7 +231,7 @@
     <circle id="tw-6" cx="820" cy="140" r="1.3" fill="#b9a8ff" />
   </svg>
 
-  <div style={{ display: 'flex', fontSize: 12, letterSpacing: 4, color: '#6b7080', marginBottom: 18, zIndex: 10 }}>STACK</div>
+  <div style={{ display: 'flex', fontSize: 16, fontWeight: 700, letterSpacing: 6, color: '#e4defa', marginBottom: 18 }}>STACK</div>
   <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: 640, zIndex: 10 }}>
     {['Python', 'Machine Learning', 'OpenCV', 'Deep Learning(CNNs)', 'TensorFlow', 'Google Sheets', 'SQL', 'n8n', 'RAG', 'Gen AI', 'LangChain', 'LLM APIs', 'REST APIs', 'MCP', 'Streamlit', 'FastAPI', 'Google Cloud (GCP)'].map(function (t, i) {
       return (
