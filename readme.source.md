@@ -210,66 +210,67 @@
   fontFamily: 'Inter'
 }}>
   <style>{`
-    @keyframes drift-r { 0%,100% { transform: translateX(0px); opacity: 0.7; } 50% { transform: translateX(300px); opacity: 1; } }
-    @keyframes drift-l { 0%,100% { transform: translateX(0px); opacity: 0.7; } 50% { transform: translateX(-300px); opacity: 1; } }
+    @keyframes orb-a { 0%,100% { transform: translate(0px,0px); opacity: 0.8; } 50% { transform: translate(240px,35px); opacity: 1; } }
+    @keyframes orb-b { 0%,100% { transform: translate(0px,0px); opacity: 0.75; } 50% { transform: translate(-230px,40px); opacity: 1; } }
+    @keyframes orb-c { 0%,100% { transform: translate(0px,0px); opacity: 0.7; } 50% { transform: translate(200px,-40px); opacity: 1; } }
+    @keyframes orb-d { 0%,100% { transform: translate(0px,0px); opacity: 0.75; } 50% { transform: translate(-190px,-35px); opacity: 1; } }
+    @keyframes orb-pulse { 0%,100% { transform: scale(1); opacity: 0.85; } 50% { transform: scale(1.3); opacity: 0.45; } }
     @keyframes twinkle { 0%,100% { opacity: 0.1; } 50% { opacity: 0.9; } }
-    @keyframes rise { 0% { transform: translateY(0px); opacity: 0; } 20% { opacity: 0.8; } 100% { transform: translateY(-130px); opacity: 0; } }
-    @keyframes sheen { 0% { transform: translateX(0px); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(1040px); opacity: 0; } }
-    #s-glow-1 { animation: drift-r 12s ease-in-out infinite; }
-    #s-glow-2 { animation: drift-l 15s ease-in-out infinite; }
+    #s-glow-1 { animation: orb-a 12s ease-in-out infinite; }
+    #s-glow-2 { animation: orb-b 14s ease-in-out infinite; }
+    #s-glow-3 { animation: orb-c 11s ease-in-out infinite; }
+    #s-glow-4 { animation: orb-d 13s ease-in-out infinite; }
+    #s-glow-5 { animation: orb-pulse 8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
     #tw-1 { animation: twinkle 3s ease-in-out infinite; }
     #tw-2 { animation: twinkle 4s ease-in-out infinite 1s; }
     #tw-3 { animation: twinkle 5s ease-in-out infinite 2s; }
     #tw-4 { animation: twinkle 3.5s ease-in-out infinite 0.5s; }
     #tw-5 { animation: twinkle 4.5s ease-in-out infinite 1.5s; }
     #tw-6 { animation: twinkle 3.2s ease-in-out infinite 2.5s; }
-    #p-1 { animation: rise 9s linear infinite -1s; }
-    #p-2 { animation: rise 11s linear infinite -5s; }
-    #p-3 { animation: rise 8s linear infinite -3s; }
-    #p-4 { animation: rise 12s linear infinite -8s; }
-    #p-5 { animation: rise 10s linear infinite -6s; }
-    #p-6 { animation: rise 9.5s linear infinite -2s; }
-    #sheen { animation: sheen 11s linear infinite 2s; }
   `}</style>
 
   <svg width="860" height="190" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="gs1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(110,20,210,0.4)" />
-        <stop offset="50%" stopColor="rgba(90,15,180,0.15)" />
+        <stop offset="0%" stopColor="rgba(110,20,210,0.42)" />
+        <stop offset="50%" stopColor="rgba(90,15,180,0.16)" />
         <stop offset="70%" stopColor="rgba(90,15,180,0)" />
       </radialGradient>
       <radialGradient id="gs2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(40,80,255,0.35)" />
-        <stop offset="50%" stopColor="rgba(30,60,200,0.12)" />
+        <stop offset="0%" stopColor="rgba(40,80,255,0.38)" />
+        <stop offset="50%" stopColor="rgba(30,60,200,0.14)" />
         <stop offset="70%" stopColor="rgba(30,60,200,0)" />
       </radialGradient>
-      <linearGradient id="gsheen" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stopColor="rgba(190,170,255,0)" />
-        <stop offset="50%" stopColor="rgba(190,170,255,0.09)" />
-        <stop offset="100%" stopColor="rgba(190,170,255,0)" />
-      </linearGradient>
+      <radialGradient id="gs3" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(0,170,230,0.28)" />
+        <stop offset="70%" stopColor="rgba(0,170,230,0)" />
+      </radialGradient>
+      <radialGradient id="gs4" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(160,30,255,0.38)" />
+        <stop offset="50%" stopColor="rgba(130,20,220,0.14)" />
+        <stop offset="70%" stopColor="rgba(130,20,220,0)" />
+      </radialGradient>
+      <radialGradient id="gs5" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(100,50,240,0.32)" />
+        <stop offset="70%" stopColor="rgba(100,50,240,0)" />
+      </radialGradient>
     </defs>
-    <ellipse id="s-glow-1" cx="200" cy="200" rx="260" ry="110" fill="url(#gs1)" />
-    <ellipse id="s-glow-2" cx="660" cy="205" rx="240" ry="100" fill="url(#gs2)" />
-    <rect id="sheen" x="-180" y="0" width="180" height="190" fill="url(#gsheen)" />
+    <ellipse id="s-glow-1" cx="140" cy="50" rx="220" ry="120" fill="url(#gs1)" />
+    <ellipse id="s-glow-2" cx="720" cy="45" rx="210" ry="115" fill="url(#gs2)" />
+    <ellipse id="s-glow-3" cx="280" cy="170" rx="200" ry="100" fill="url(#gs3)" />
+    <ellipse id="s-glow-4" cx="620" cy="175" rx="210" ry="105" fill="url(#gs4)" />
+    <ellipse id="s-glow-5" cx="430" cy="95" rx="170" ry="90" fill="url(#gs5)" />
     <circle id="tw-1" cx="90" cy="40" r="1.6" fill="#ffffff" />
     <circle id="tw-2" cx="250" cy="150" r="1.4" fill="#b9a8ff" />
     <circle id="tw-3" cx="300" cy="26" r="1.8" fill="#ffffff" />
     <circle id="tw-4" cx="600" cy="160" r="1.5" fill="#9fd3ff" />
     <circle id="tw-5" cx="760" cy="45" r="1.6" fill="#ffffff" />
     <circle id="tw-6" cx="820" cy="140" r="1.3" fill="#b9a8ff" />
-    <circle id="p-1" cx="110" cy="185" r="2.2" fill="#b9a8ff" />
-    <circle id="p-2" cx="270" cy="190" r="1.8" fill="#9fd3ff" />
-    <circle id="p-3" cx="420" cy="188" r="2.4" fill="#ffffff" />
-    <circle id="p-4" cx="560" cy="190" r="1.8" fill="#b9a8ff" />
-    <circle id="p-5" cx="700" cy="186" r="2.2" fill="#9fd3ff" />
-    <circle id="p-6" cx="800" cy="190" r="1.8" fill="#ffffff" />
   </svg>
 
   <div style={{ display: 'flex', fontSize: 15, fontWeight: 400, letterSpacing: 6, color: '#e4defa', marginBottom: 18 }}>STACK</div>
   <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: 640 }}>
-    {['Python', 'Machine Learning', 'OpenCV', 'Deep Learning (CNNs)', 'TensorFlow', 'Google Sheets', 'SQL', 'n8n', 'RAG', 'Gen AI', 'LangChain', 'LLM APIs', 'REST APIs', 'MCP', 'Streamlit', 'FastAPI', 'Google Cloud (GCP)'].map(function (t, i) {
+    {['Python', 'Machine Learning', 'OpenCV', 'Deep Learning(CNNs)', 'TensorFlow', 'Google Sheets', 'SQL', 'n8n', 'RAG', 'Gen AI', 'LangChain', 'LLM APIs', 'REST APIs', 'MCP', 'Streamlit', 'FastAPI', 'Google Cloud (GCP)'].map(function (t, i) {
       return (
         <div key={t + i} style={{
           display: 'flex', padding: '6px 16px', margin: 5, borderRadius: 999,
