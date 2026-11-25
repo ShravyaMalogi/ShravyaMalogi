@@ -1,4 +1,4 @@
-```aura width=860 height=320 link="https://github.com/ShravyaMalogi"
+```aura width=860 height=400 link="https://github.com/ShravyaMalogi"
 <div style={{
   width: '100%', height: '100%', background: '#08080c',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
@@ -6,55 +6,70 @@
   border: '1px solid rgba(110,80,220,0.18)'
 }}>
   <style>{`
-    @keyframes float-slow { 0%,100% { transform: translateX(0px); opacity: 0.8; } 50% { transform: translateX(300px); opacity: 1; } }
-    @keyframes float-medium { 0%,100% { transform: translateX(0px); opacity: 0.7; } 50% { transform: translateX(-250px); opacity: 1; } }
-    @keyframes float-pulse { 0%,100% { transform: scale(1); opacity: 0.8; } 50% { transform: scale(1.3); opacity: 0.4; } }
-    #glow-1 { animation: float-slow 9s ease-in-out infinite; }
-    #glow-2 { animation: float-medium 12s ease-in-out infinite; }
-    #glow-3 { animation: float-slow 11s ease-in-out infinite reverse; }
-    #glow-4 { animation: float-pulse 7s ease-in-out infinite; }
+    @keyframes orb-a { 0%,100% { transform: translate(0px,0px); opacity: 0.8; } 50% { transform: translate(260px,70px); opacity: 1; } }
+    @keyframes orb-b { 0%,100% { transform: translate(0px,0px); opacity: 0.75; } 50% { transform: translate(-240px,90px); opacity: 1; } }
+    @keyframes orb-c { 0%,100% { transform: translate(0px,0px); opacity: 0.7; } 50% { transform: translate(220px,-90px); opacity: 1; } }
+    @keyframes orb-d { 0%,100% { transform: translate(0px,0px); opacity: 0.75; } 50% { transform: translate(-200px,-80px); opacity: 1; } }
+    @keyframes orb-pulse { 0%,100% { transform: scale(1); opacity: 0.85; } 50% { transform: scale(1.3); opacity: 0.45; } }
+    #glow-1 { animation: orb-a 12s ease-in-out infinite; }
+    #glow-2 { animation: orb-b 14s ease-in-out infinite; }
+    #glow-3 { animation: orb-c 11s ease-in-out infinite; }
+    #glow-4 { animation: orb-d 13s ease-in-out infinite; }
+    #glow-5 { animation: orb-pulse 8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    #glow-6 { animation: orb-pulse 10s ease-in-out infinite reverse; transform-box: fill-box; transform-origin: center; }
   `}</style>
 
-  <svg width="860" height="320" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="860" height="400" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(110,20,210,0.65)" />
-        <stop offset="40%" stopColor="rgba(90,15,180,0.3)" />
+        <stop offset="0%" stopColor="rgba(110,20,210,0.55)" />
+        <stop offset="45%" stopColor="rgba(90,15,180,0.25)" />
         <stop offset="70%" stopColor="rgba(90,15,180,0)" />
       </radialGradient>
       <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(40,60,255,0.55)" />
-        <stop offset="45%" stopColor="rgba(30,50,200,0.22)" />
+        <stop offset="0%" stopColor="rgba(40,60,255,0.5)" />
+        <stop offset="45%" stopColor="rgba(30,50,200,0.2)" />
         <stop offset="70%" stopColor="rgba(30,50,200,0)" />
       </radialGradient>
       <radialGradient id="g3" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(0,190,230,0.3)" />
-        <stop offset="70%" stopColor="rgba(0,190,230,0)" />
+        <stop offset="0%" stopColor="rgba(0,170,230,0.38)" />
+        <stop offset="70%" stopColor="rgba(0,170,230,0)" />
       </radialGradient>
       <radialGradient id="g4" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(160,30,255,0.5)" />
+        <stop offset="0%" stopColor="rgba(160,30,255,0.48)" />
+        <stop offset="50%" stopColor="rgba(130,20,220,0.18)" />
         <stop offset="70%" stopColor="rgba(130,20,220,0)" />
       </radialGradient>
+      <radialGradient id="g5" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(100,50,240,0.42)" />
+        <stop offset="70%" stopColor="rgba(100,50,240,0)" />
+      </radialGradient>
+      <radialGradient id="g6" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(30,90,255,0.4)" />
+        <stop offset="70%" stopColor="rgba(30,90,255,0)" />
+      </radialGradient>
     </defs>
-    <ellipse id="glow-1" cx="200" cy="330" rx="260" ry="190" fill="url(#g1)" />
-    <ellipse id="glow-2" cx="420" cy="340" rx="220" ry="160" fill="url(#g2)" />
-    <ellipse id="glow-3" cx="620" cy="340" rx="180" ry="140" fill="url(#g3)" />
-    <ellipse id="glow-4" cx="450" cy="330" rx="150" ry="120" fill="url(#g4)" />
+    <ellipse id="glow-1" cx="150" cy="110" rx="250" ry="190" fill="url(#g1)" />
+    <ellipse id="glow-2" cx="700" cy="90" rx="240" ry="180" fill="url(#g2)" />
+    <ellipse id="glow-3" cx="260" cy="320" rx="230" ry="160" fill="url(#g3)" />
+    <ellipse id="glow-4" cx="660" cy="320" rx="240" ry="170" fill="url(#g4)" />
+    <ellipse id="glow-5" cx="430" cy="200" rx="200" ry="150" fill="url(#g5)" />
+    <ellipse id="glow-6" cx="820" cy="210" rx="170" ry="140" fill="url(#g6)" />
   </svg>
 
-  <div style={{ display: 'flex', fontSize: 64, fontWeight: 800, color: '#ffffff', letterSpacing: '-1px', zIndex: 10 }}>
+  <div style={{ display: 'flex', fontSize: 64, fontWeight: 800, color: '#ffffff', letterSpacing: '-1px' }}>
     {github?.user?.login || 'ShravyaMalogi'}
   </div>
-  <div style={{ display: 'flex', marginTop: 10, fontSize: 14, letterSpacing: 8, color: 'rgba(180,165,255,0.7)', zIndex: 10 }}>
+  <div style={{ display: 'flex', marginTop: 12, fontSize: 14, letterSpacing: 8, color: 'rgba(200,185,255,0.85)' }}>
     THOUGHTS · TRIALS · BREAKTHROUGHS
   </div>
-  <div style={{ display: 'flex', marginTop: 24, zIndex: 10 }}>
+  <div style={{ display: 'flex', marginTop: 28 }}>
     {['Artificial Intelligence', 'Machine Learning & Data', 'Workflow Automation'].map(function (tag, i) {
       return (
         <div key={tag + i} style={{
           display: 'flex', padding: '6px 18px', marginRight: 10, borderRadius: 999,
-          background: 'rgba(80,40,220,0.18)', border: '1px solid rgba(100,70,240,0.32)',
-          color: 'rgba(205,195,255,0.85)', fontSize: 12, fontWeight: 600
+          background: 'rgba(80,40,220,0.22)', border: '1px solid rgba(100,70,240,0.38)',
+          color: 'rgba(215,205,255,0.92)', fontSize: 12, fontWeight: 600
         }}>{tag}</div>
       );
     })}
