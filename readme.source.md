@@ -225,13 +225,13 @@
     <ellipse id="s-glow-2" cx="660" cy="205" rx="240" ry="100" fill="url(#gs2)" />
     <circle id="tw-1" cx="90" cy="40" r="1.6" fill="#ffffff" />
     <circle id="tw-2" cx="250" cy="150" r="1.4" fill="#b9a8ff" />
-    <circle id="tw-3" cx="420" cy="30" r="1.8" fill="#ffffff" />
+    <circle id="tw-3" cx="300" cy="26" r="1.8" fill="#ffffff" />
     <circle id="tw-4" cx="600" cy="160" r="1.5" fill="#9fd3ff" />
     <circle id="tw-5" cx="760" cy="45" r="1.6" fill="#ffffff" />
     <circle id="tw-6" cx="820" cy="140" r="1.3" fill="#b9a8ff" />
   </svg>
 
-  <div style={{ display: 'flex', fontSize: 16, fontWeight: 700, letterSpacing: 6, color: '#e4defa', marginBottom: 18 }}>STACK</div>
+  <div style={{ display: 'flex', fontSize: 15, fontWeight: 400, letterSpacing: 6, color: '#e4defa', marginBottom: 18 }}>STACK</div>
   <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', width: 640, zIndex: 10 }}>
     {['Python', 'Machine Learning', 'OpenCV', 'Deep Learning(CNNs)', 'TensorFlow', 'Google Sheets', 'SQL', 'n8n', 'RAG', 'Gen AI', 'LangChain', 'LLM APIs', 'REST APIs', 'MCP', 'Streamlit', 'FastAPI', 'Google Cloud (GCP)'].map(function (t, i) {
       return (
