@@ -169,7 +169,7 @@
       <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff', marginTop: 8 }}>A little curiosity.</div>
       <div style={{ display: 'flex', fontSize: 30, fontWeight: 700, color: '#ffffff' }}>A lot of figuring things out.</div>
       <div style={{ display: 'flex', alignItems: 'center', marginTop: 16 }}>
-        <div style={{ display: 'flex', fontSize: 13, color: '#9aa0ad' }}>&gt; open to collaborations_ </div>
+        <div style={{ display: 'flex', fontSize: 13, color: '#9aa0ad' }}>&gt; open to collaborations _ </div>
         <svg width="8" height="16" style={{ marginLeft: 4 }}>
           <rect id="cursor" x="0" y="2" width="7" height="12" fill="#b9a8ff" />
         </svg>
