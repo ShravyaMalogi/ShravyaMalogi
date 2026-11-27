@@ -98,7 +98,7 @@
       <clipPath id="clip-b"><rect x="572" y="0" width="288" height="119" rx="20" /></clipPath>
       <clipPath id="clip-c"><rect x="572" y="131" width="288" height="119" rx="20" /></clipPath>
       <filter id="soft" filterUnits="userSpaceOnUse" x="572" y="0" width="288" height="119">
-        <feGaussianBlur stdDeviation="3" />
+        <feGaussianBlur stdDeviation="6" />
       </filter>
       <radialGradient id="gb1" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(0,130,255,0.5)" />
