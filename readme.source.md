@@ -88,8 +88,8 @@
     #a-glow-1 { animation: drift-r 10s ease-in-out infinite; }
     #a-glow-2 { animation: drift-l 13s ease-in-out infinite; }
     #a-glow-3 { animation: pulse 8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    #b-glow-1 { animation: pulse 6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-    #b-beam { animation: sweep 4s linear infinite; }
+    #c-glow-1 { animation: pulse 6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    #c-beam { animation: sweep 4s linear infinite; }
     #cursor { animation: blink 1s steps(1) infinite; }
   `}</style>
 
@@ -97,7 +97,7 @@
     <defs>
       <clipPath id="clip-b"><rect x="572" y="0" width="288" height="119" rx="20" /></clipPath>
       <clipPath id="clip-c"><rect x="572" y="131" width="288" height="119" rx="20" /></clipPath>
-      <filter id="soft" filterUnits="userSpaceOnUse" x="572" y="131" width="288" height="119">
+      <filter id="soft" filterUnits="userSpaceOnUse" x="572" y="0" width="288" height="119">
         <feGaussianBlur stdDeviation="3" />
       </filter>
       <radialGradient id="gb1" cx="50%" cy="50%" r="50%">
@@ -114,27 +114,27 @@
     <rect x="572" y="0" width="288" height="119" rx="20" fill="#0b0c12" />
     <rect x="572" y="131" width="288" height="119" rx="20" fill="#0b0c12" />
     <g clipPath="url(#clip-b)">
-      <ellipse id="b-glow-1" cx="716" cy="135" rx="150" ry="70" fill="url(#gb1)" />
-      <rect id="b-beam" x="502" y="0" width="70" height="119" fill="url(#gbeam)" />
-    </g>
-    <g clipPath="url(#clip-c)">
       <g filter="url(#soft)">
-        <circle cx="716" cy="190" r="7" fill="#c9a8ff">
+        <circle cx="716" cy="60" r="7" fill="#c9a8ff">
           <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite" />
         </circle>
-        <circle cx="716" cy="190" r="8" fill="none" stroke="#a56bff" strokeWidth="3" opacity="0">
+        <circle cx="716" cy="60" r="8" fill="none" stroke="#a56bff" strokeWidth="3" opacity="0">
           <animate attributeName="r" from="8" to="130" dur="4s" repeatCount="indefinite" />
           <animate attributeName="opacity" from="0.8" to="0" dur="4s" repeatCount="indefinite" />
         </circle>
-        <circle cx="716" cy="190" r="8" fill="none" stroke="#6f8cff" strokeWidth="3" opacity="0">
+        <circle cx="716" cy="60" r="8" fill="none" stroke="#6f8cff" strokeWidth="3" opacity="0">
           <animate attributeName="r" from="8" to="130" dur="4s" begin="1.33s" repeatCount="indefinite" />
           <animate attributeName="opacity" from="0.8" to="0" dur="4s" begin="1.33s" repeatCount="indefinite" />
         </circle>
-        <circle cx="716" cy="190" r="8" fill="none" stroke="#3ac8ff" strokeWidth="3" opacity="0">
+        <circle cx="716" cy="60" r="8" fill="none" stroke="#3ac8ff" strokeWidth="3" opacity="0">
           <animate attributeName="r" from="8" to="130" dur="4s" begin="2.66s" repeatCount="indefinite" />
           <animate attributeName="opacity" from="0.8" to="0" dur="4s" begin="2.66s" repeatCount="indefinite" />
         </circle>
       </g>
+    </g>
+    <g clipPath="url(#clip-c)">
+      <ellipse id="c-glow-1" cx="716" cy="266" rx="150" ry="70" fill="url(#gb1)" />
+      <rect id="c-beam" x="502" y="131" width="70" height="119" fill="url(#gbeam)" />
     </g>
   </svg>
 
